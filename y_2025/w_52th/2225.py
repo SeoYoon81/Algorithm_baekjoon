@@ -10,4 +10,4 @@ B = 1
 for i in range(k - 1):
     A *= k + n - 1 - i
     B *= i + 1
-print (A // B)
+print ((A // B) % 1000000000)
